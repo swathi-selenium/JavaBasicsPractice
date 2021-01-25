@@ -1,0 +1,30 @@
+Single Inheritance:
+class B--->class A
+public class A{
+.....
+}
+public class B extends A{
+....
+}
+
+Multi level Inheritance:
+class C-->class B-->class A
+public class A{....}
+public class B extends A{....}
+public class C extends B{....}
+
+Hierarchical Inheritance:
+class B-->class A
+class C-->class A
+public class A{.....}
+public class B extends A{...}
+public class C extends A{.....}
+
+Multiple Inheritance:
+class C-->class A
+class C-->class B
+public class A{....}
+public class B{......}
+public class C extends A,B{
+....}
+Java doesnot support multiple inheritance
